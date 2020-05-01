@@ -14,7 +14,7 @@ header h2 {
 header h2:after {
 	content: "";
 	display: block;
-	border-top: 1px solid var(--jaune);
+	border-top: 1px solid #feca07;
 	width: 5rem;
 }
 
@@ -46,6 +46,6 @@ header div {
 		justify-content: space-around;
 	}
 	header aside {
-		background-color: var(--jaune);
+		background-color: #feca07;
 	}
 }

@@ -15,7 +15,7 @@ section aside {
     background-color: initial;
 }
 
-section poste {
+section p {
     display: block;
 }
 
@@ -36,7 +36,7 @@ section ul li {
 section ul li:before {
     content:"\f111";
     font-family:"Font Awesome 5 Free";
-    color:var(--jaune);
+    color:#feca07;
     margin-right: .5rem;
 }
     

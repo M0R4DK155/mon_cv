@@ -2,23 +2,17 @@
 @import url("./header.css");
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 :root {
-	--jaune: #feca07
+	color:initial
 }
 
 body {
 	margin: 0;
-	/*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
 	background-color: white;
 	font-family: 'Manrope', sans-serif;
 }
 
-mark {
-	background-color: black;
-	color: var(--jaune);
-}
-
 p {
-	text-align: center
+	text-align: left
 }
 
 p.blocktext {
@@ -30,7 +24,7 @@ p.blocktext {
 .fa-graduation-cap,
 .fa-briefcase,
 .fa-pencil-alt {
-	color: var(--jaune);
+	color: #feca07;
 	margin-left: 0px;
 	margin-right: 10px;
 }
@@ -44,20 +38,18 @@ p.blocktext {
 
 h1 {
 	text-align: center;
-	/* margin: 0; */
-	margin-block-start: 0;
-	margin-block-end: 0;
 }
 
 h1 span {
-	color: var(--jaune);
+	color: #feca07;
 }
 
 h2 {
 	text-align: left;
 	margin-bottom: 2px;
-	border-bottom: 2px solid var(--jaune);
+	border-bottom: 2px solid #feca07;
 	font-size: 1.2em;
+	padding: 5px;
 }
 
 h3 {
@@ -72,7 +64,7 @@ article {
 }
 
 aside {
-	background-color: var(--jaune);
+	background-color: #feca07;
 }
 
 aside article {
@@ -81,7 +73,7 @@ aside article {
 
 aside h2 {
 	background-color: black;
-	color: var(--jaune);
+	color: #feca07;
 	text-align: center;
 }
 
@@ -92,7 +84,7 @@ aside section:last-of-type article {
 
 @media screen and (min-width: 768px) {
 	aside {
-		width: 20vw;
+		width: 22vw;
 		padding: 0;
 		margin-top: 0px;
 	}
@@ -115,5 +107,8 @@ aside section:last-of-type article {
 	}
 	main div section:nth-of-type(3) ul li * {
 		width: 100%
+	}
+	h2{
+		padding: 5px;
 	}
 }
