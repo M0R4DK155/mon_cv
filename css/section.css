@@ -15,6 +15,10 @@ section aside {
     background-color: initial;
 }
 
+section div {
+    text-align: center;
+}
+
 section p {
     display: block;
 }
