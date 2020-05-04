@@ -19,6 +19,21 @@ section div {
     text-align: center;
 }
 
+section > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section > div > i {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
 section p {
     display: block;
 }
